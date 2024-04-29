@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-const Sceleton = ({ count = 1, type = "banner" }) => {
+const Skeleton = ({ count = 1, type = "banner" }) => {
   return (
     <>
       {count > 1 ? (
@@ -19,4 +19,4 @@ const Sceleton = ({ count = 1, type = "banner" }) => {
   );
 };
 
-export default Sceleton;
+export default Skeleton;
