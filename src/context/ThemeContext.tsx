@@ -1,5 +1,7 @@
 import { ReactNode, createContext, useContext, useState } from "react";
 
+// комментарий для теста
+
 interface IThemeContext {
   isDark: boolean;
   toggleTheme: () => void;
